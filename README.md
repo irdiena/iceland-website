@@ -6,7 +6,7 @@ A one-page, static business website built with HTML, CSS and JavaScript.
 - `index.html` — all website sections and content
 - `style.css` — IceLand visual theme and responsive layout
 - `script.js` — mobile navigation, smooth section reveal and current year
-- `assets/` — local IceLand images used by the website
+- `assets/` — local IceLand images and the supplied IceLand business logo used by the website
 
 ## GitHub Pages
 1. Create a new GitHub repository.
