@@ -28,3 +28,15 @@ const observer = new IntersectionObserver(
 );
 
 document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+
+const backTop = document.getElementById("backTop");
+
+backTop?.addEventListener("click", (event) => {
+  event.preventDefault();
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
